@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Pse-ZH-RmO" customClass="TagCell" customModule="TagFlow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="70" height="62"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="70" height="62"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qix-pN-KDS">
+                        <rect key="frame" x="8" y="8" width="54" height="46"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="304" id="ceM-zg-Cbz"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="z6Q-km-MC6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Qix-pN-KDS" firstAttribute="top" secondItem="Pse-ZH-RmO" secondAttribute="top" constant="8" id="iEw-CN-HjM"/>
+                <constraint firstItem="Qix-pN-KDS" firstAttribute="leading" secondItem="Pse-ZH-RmO" secondAttribute="leading" constant="8" id="jqw-AS-pXF"/>
+                <constraint firstAttribute="trailing" secondItem="Qix-pN-KDS" secondAttribute="trailing" constant="8" id="lkf-CP-c3a"/>
+                <constraint firstAttribute="bottom" secondItem="Qix-pN-KDS" secondAttribute="bottom" constant="8" id="pyX-9R-3bt"/>
+            </constraints>
+            <size key="customSize" width="70" height="62"/>
+            <connections>
+                <outlet property="maxWidthConstraint" destination="ceM-zg-Cbz" id="6T8-1Z-bbI"/>
+                <outlet property="tagLabel" destination="Qix-pN-KDS" id="Ob7-3B-gVZ"/>
+            </connections>
+            <point key="canvasLocation" x="-63" y="-214"/>
+        </collectionViewCell>
+    </objects>
+</document>

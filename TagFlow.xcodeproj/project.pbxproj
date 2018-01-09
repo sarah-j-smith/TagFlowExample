@@ -12,6 +12,9 @@
 		F66B6D6F2004B6E800E57B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66B6D6D2004B6E800E57B73 /* Main.storyboard */; };
 		F66B6D712004B6E800E57B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66B6D702004B6E800E57B73 /* Assets.xcassets */; };
 		F66B6D742004B6E800E57B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66B6D722004B6E800E57B73 /* LaunchScreen.storyboard */; };
+		F66B6D7E2004B90D00E57B73 /* TagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66B6D7D2004B90D00E57B73 /* TagCell.xib */; };
+		F66B6D802004BAF900E57B73 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66B6D7F2004BAF900E57B73 /* TagCell.swift */; };
+		F66B6D822004CB8400E57B73 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66B6D812004CB8400E57B73 /* FlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F66B6D702004B6E800E57B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F66B6D732004B6E800E57B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F66B6D752004B6E800E57B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66B6D7D2004B90D00E57B73 /* TagCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagCell.xib; sourceTree = "<group>"; };
+		F66B6D7F2004BAF900E57B73 /* TagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
+		F66B6D812004CB8400E57B73 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				F66B6D702004B6E800E57B73 /* Assets.xcassets */,
 				F66B6D722004B6E800E57B73 /* LaunchScreen.storyboard */,
 				F66B6D752004B6E800E57B73 /* Info.plist */,
+				F66B6D7D2004B90D00E57B73 /* TagCell.xib */,
+				F66B6D7F2004BAF900E57B73 /* TagCell.swift */,
+				F66B6D812004CB8400E57B73 /* FlowLayout.swift */,
 			);
 			path = TagFlow;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66B6D7E2004B90D00E57B73 /* TagCell.xib in Resources */,
 				F66B6D742004B6E800E57B73 /* LaunchScreen.storyboard in Resources */,
 				F66B6D712004B6E800E57B73 /* Assets.xcassets in Resources */,
 				F66B6D6F2004B6E800E57B73 /* Main.storyboard in Resources */,
@@ -137,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66B6D6C2004B6E800E57B73 /* ViewController.swift in Sources */,
+				F66B6D822004CB8400E57B73 /* FlowLayout.swift in Sources */,
 				F66B6D6A2004B6E800E57B73 /* AppDelegate.swift in Sources */,
+				F66B6D802004BAF900E57B73 /* TagCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
